@@ -20,21 +20,21 @@ RECEIVER_EMAILS = ['xxx@qq.com', 'xxx@whu.edu.cn']
 # 2. 爬虫 API 配置
 API_URL = "http://zwhqbsd.whu.edu.cn/ICBS_V2_Server/v3/XINTF/GetReserve"
 PARAMS = {
-    "MeterID": "3002.001230.1"  # 你的 MeterID
+    "MeterID": "xxx"  # 你的 MeterID
 }
 # 请填入最新的 Headers (尤其是 Cookie, User-Agent 和 Authorization)
 HEADERS = {
-    "Cookie": "iPlanetDirectoryPro=jaIoxjwapQYDVyBy4pyVX6",
-    "authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJTYW5GcmFuU29FYXN5Iiwic3ViIjoiT3duLVNvRWFzeVdlYiIsImF1ZCI6IlNvRWFzeVdlYi1Vc2VycyIsImp0aSI6IiIsInVpZCI6InBoIiwidW5hbWUiOiJwaEFQSSIsInJvbGVpZCI6IjAxIiwibG9naW5Nb2RlIjoiQVBQIiwiZW1wX3VzZWQiOiJGYWxzZSIsInVkYmlkIjoiMSIsImFsbG93TG9naW4iOiJGYWxzZSIsInN5c19uYW1lIjoi5q2m5rGJ5aSn5a2mIiwic3lzX3RhZyI6InNhbmZyYW4iLCJ1c2VyX2lwIjoiIiwibmJmIjoxNzY2NDY1NzY0LCJleHAiOjE3NjY1NTIxNjR9.E1eVna8JC0LWFadt7kALhavRT09-CKdb-Q_K8ZigQ4k",
+    "Cookie": "xxx",
+    "authorization": "xxx",
     "Host": "zwhqbsd.whu.edu.cn",
     "Referer": "http://zwhqbsd.whu.edu.cn/MobilePayWeb/",
-    "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0",
+    "User-Agent": "xxx",
     "Accept": "application/json, text/plain, */*",
     "Connection": "keep-alive"
 }
 
 # 3. 阈值设置
-MIN_BALANCE = 50.0  # 低于多少元发送提醒
+MIN_BALANCE = 10.0  # 低于多少元发送提醒
 
 
 # ================= 功能函数 =================
