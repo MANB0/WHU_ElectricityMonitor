@@ -19,8 +19,9 @@
   - 请求URL
   - 请求方法
 - 请求标头
+  - Cookie
   - Accept
-  - Authorization
+  - authorization
   - Host
   - Connection（此项也有可能为Proxy-Connection）
   - Referer
