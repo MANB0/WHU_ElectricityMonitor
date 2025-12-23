@@ -19,7 +19,6 @@
   - 请求URL
   - 请求方法
 - 请求标头
-  - Cookie
   - Accept
   - authorization
   - Host
