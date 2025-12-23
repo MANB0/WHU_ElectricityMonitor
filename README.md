@@ -1,0 +1,2 @@
+# WHU_ElectricityMonitor
+推送武汉大学学生宿舍电费情况，在低于阈值时发送邮件
