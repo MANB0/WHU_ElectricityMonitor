@@ -22,9 +22,8 @@ API_URL = "http://zwhqbsd.whu.edu.cn/ICBS_V2_Server/v3/XINTF/GetReserve"
 PARAMS = {
     "MeterID": "xxx"  # 你的 MeterID
 }
-# 请填入最新的 Headers (尤其是 Cookie, User-Agent 和 Authorization)
+# 请填入最新的 Headers (尤其是 User-Agent 和 Authorization)
 HEADERS = {
-    "Cookie": "xxx",
     "authorization": "xxx",
     "Host": "zwhqbsd.whu.edu.cn",
     "Referer": "http://zwhqbsd.whu.edu.cn/MobilePayWeb/",
@@ -110,3 +109,4 @@ def check_power():
 
 if __name__ == "__main__":
     check_power()
+
