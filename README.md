@@ -25,11 +25,37 @@
   - Connection（此项也有可能为Proxy-Connection）
   - Referer
   - User-Agent
+ 
+同时，根据GetReserve?MeterID=3002.001520.1也可以得到你的MeterID为3002.001520.1
 
 ## 修改power_monitor.py
 
-在文件中，你需要修改两部分：发送邮箱、电费监控
+在文件中，你需要修改两部分：邮箱配置、爬虫配置
 
-### 发送邮箱
+### 邮箱配置
 
-这里建议直接使用你的QQ邮箱，生成
+这里建议直接使用你的QQ邮箱，生成授权码后填入对应位置即可。RECEIVER_EMAILS中，你可以加入多个邮箱，使你的室友也能够收到邮件。
+
+<img width="753" height="241" alt="image" src="https://github.com/user-attachments/assets/7ed90dd7-879f-4ba8-b2c7-f7949d82a445" />
+
+
+### 爬虫配置
+
+将前文中记录的信息依次填入对应的位置即可
+
+<img width="1084" height="599" alt="image" src="https://github.com/user-attachments/assets/edc5b6b0-6674-4447-aca4-79bdea62cb20" />
+
+
+完成以上配置后，你还可以自定义电费阈值MIN_BALANCE
+
+## 操作
+
+### 手动执行
+
+在你对应的python环境下，安装requests软件包后，运行脚本即可
+
+### 自动执行
+
+你也可以将该文件上传到你的服务器上，然后使用crontab自动任务来进行执行
+
+同时，如果没有服务器你也可以利用 GitHub Actions 来进行定时执行，具体的操作我没试过，可以问问ai
